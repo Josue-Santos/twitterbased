@@ -1,0 +1,337 @@
+.custom-nav{
+    position:fixed;
+    width: 25%;
+    height: 100%;
+    left: 0%;
+    border-right: 1px solid rgb(201, 195, 195);
+    background-color: black;
+    font-size:x-large;
+
+
+}
+.body{
+    overflow-y:scroll;
+    overflow-x: hidden;
+    position: fixed;
+    width: 80%;
+    height:100%;
+    left: 25%; 
+    margin-right: 2px solid white;
+    background-color: black;
+    color: white;
+
+}
+
+.menu{
+    position:relative;
+    top:-30%;
+}
+#index_title{
+    position:fixed;
+    border: 1px solid rgb(201, 195, 195);
+    text-align: left;
+    padding-left: 20px;
+    width: 48%;
+   
+}
+h2{
+    position:relative;
+    animation-name:slide;
+    animation-duration: 1.5s;
+    
+}
+
+#login_div{
+    width:500px;
+    animation-name:appear;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#new_post{
+    position:fixed;
+    border-top: 1px solid rgb(201, 195, 195);
+    border-bottom: 1px solid rgb(201, 195, 195);
+    top: 48px;
+    width:48%;;
+    height: 175px;
+    text-align: left;
+    padding-left: 20px;
+
+}
+#new_post_textarea{
+    position: relative;
+    left: -20px;
+    width:102.5%;
+    height: 175px;
+    background-color: black;
+    color:white;
+    padding-left: 150px;
+    padding-top: 50px;
+    border:none;
+    
+}
+#new_post_button{
+    position:relative;
+    left:85%;
+    top: -60px;
+}
+
+#post_follow_button{
+    position:fixed;
+    right:550px;
+    top:180px;
+    width:90px;
+    height:30px;
+    font-size: 15px;
+    text-align: center;
+    margin:auto;
+    border:2px solid;
+    border-color: rgb(24, 148, 206);
+    border-radius: 25px;
+    color:rgb(24, 148, 206);
+    background-color: black;
+  
+}
+#post_follow_button:hover{
+    background-color: rgb(51, 49, 49);
+}
+#following_counter{
+    position:fixed;
+    top:180px;
+    left:500px;
+}
+#followers_counter{
+    position:fixed;
+    top:180px;
+    left:625px;
+}
+#right_div{
+    position: fixed;
+    border-left: solid 1px rgb(201,195,195);
+    border-right: solid 1px rgb(201,195,195);
+    height:100%;
+    width:27%;
+    right: 0%;
+    top:0%;
+}
+#harvard_logo{
+    position:relative;
+    top: 15%;
+    left: 25%;
+    width: 250px;
+    height:250px;
+}
+#edx_logo{
+    position:relative;
+    top: 20%;
+    left: 25%;
+    width: 250px;
+    height:250px;
+}
+#by{
+    position: relative;
+    left: 30%;
+    top:25%;
+}
+#login{
+    position: relative;
+    top:500px;
+    left:500px;
+    background-color: blueviolet;
+   
+}
+#posts_container{
+    overflow-y:auto;
+    overflow-x:hidden;
+    height:100%;
+    position: fixed;
+    top:220px;
+    max-height: 520px;
+    min-height: 520px;
+    width: 78.9%;
+    animation-name:appear;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+}
+#navigation{
+    position: fixed;
+    bottom:15px;
+    left:50%;
+    transform: translate(-50%, 50%);
+}
+#follow_posts_container{
+    overflow-y:scroll;
+    overflow-x: hidden;
+    animation-name:appear;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    position: fixed;
+    top:225px;
+    width: 79%;
+    height: 100%;
+    max-height: 520px;
+    min-height: 520px;
+    
+}
+
+#profile_posts_container{
+    overflow-y:scroll;
+    overflow-x: hidden;
+    animation-name:appear;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    position: fixed;
+    top:225px;
+    width: 79%;
+    height: 100%;
+    max-height: 520px;
+    min-height: 520px;
+    
+}
+.post_div{
+    overflow:visible;
+    position: relative;
+    width: 738px;
+    height: 110px;
+    position: relative;
+    border: solid rgb(201,195,195) 1px;
+    padding-left: 75px;
+}
+.profile_pic{
+    position: fixed;
+    border-radius: 50%;
+    left:10%;
+    top:75%;
+    width:100px;
+    height:100px;
+}
+.profile_pic:hover{
+    width:110px;
+    height:110px;
+}
+.profile_pic1{
+    position: fixed;
+    border-radius: 50%;
+    left:27%;
+    top:10%;
+    width:60px;
+    height:60px;
+}
+#post_username{
+    position:relative;
+    left:5%;
+    top:5%;
+    color:white;
+    font-size:15px;
+     font-weight:900;
+}
+#post_post{
+    position:relative;
+    left:5%;
+}
+#post_date{
+    position: relative;
+    left:80%;
+    top:-20%;
+    font-size:10px;
+
+}
+.post_profile_pic{
+    position: relative;
+    border-radius: 50%;
+    left:-6%;
+    top:-100%;
+    width:60px;
+    height:60px;
+}
+.like_button{
+    position: relative;
+    top:-30%;
+    left: 85%;
+    width:18px;
+    height:18px;
+
+}
+.like_button:hover{
+    filter: sepia(100%);
+    height: 25px; 
+    width: 25px;
+}
+#likes_counter{
+    position: relative;
+    top:-50%;
+    left: 90%;
+    width:20px;
+    height:20px;
+}
+#edit_button{
+    position: relative;
+    top:-130%;
+    left:85%;
+    width:30px;
+    height:10px;
+}
+.hidden{
+    position: relative;
+    top:-150%;
+    left:95%;
+    display: none;
+}
+#edit_button:hover + .hidden{
+    width:50px;
+    height:50px;
+    display:block;   
+}
+#edit_textarea{
+    position:relative;
+    width:50%;
+    left:-10%;
+    height: 50px;
+    background-color: black;
+    color:white;
+    resize:none;
+    border:none;
+}
+#re_post_button{
+    position:relative;
+    top:-30%;
+    left:80%;
+}
+
+@keyframes slide{
+    0%{
+        left:50%;
+        opacity: 0;
+    }
+    
+    100%{
+       left:0%;
+       opacity:1; 
+       
+    }
+}
+@keyframes appear{
+    0%{
+        height: 0%;
+        opacity: 0;
+    }
+
+   
+    100%{
+       height:100%;
+       opacity:1;
+      
+       
+    }
+}
+@keyframes move{
+    0%{
+      left:20px;  
+    }
+    100%{
+      left:0%;  
+    }
+}
+
